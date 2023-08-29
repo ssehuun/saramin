@@ -35,4 +35,4 @@ time.sleep(1)
 corp = driver.find_element(By.XPATH, '//*[@id="wrapper"]/div[1]/div[1]/div[1]/h1').text
 sector = driver.find_element(By.XPATH, '//*[@id="wrapper"]/div[1]/div[2]/section/div[2]/div/dl/dd[1]').text
 bi = driver.find_element(By.XPATH, '//*[@id="wrapper"]/div[1]/div[2]/section/div[2]/div/dl/dd[3]').text
-print(corp, sector, bi)
+print(corp, sector)
